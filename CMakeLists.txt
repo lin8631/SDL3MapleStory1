@@ -22,6 +22,6 @@ if(CMAKE_BUILD_TYPE STREQUAL "Release")
     endif()
 endif()
 
-
+add_subdirectory(Game)
 add_subdirectory(sdlms)
 add_subdirectory(Engine EXCLUDE_FROM_ALL)
