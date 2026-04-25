@@ -1,0 +1,54 @@
+# 键位配置文件
+# 格式: action=scancode 或 skill=scancode:skillid
+
+# 方向键
+action.UP=UP
+action.DOWN=DOWN
+action.LEFT=LEFT
+action.RIGHT=RIGHT
+
+# 动作键
+action.JUMP=SPACE
+# 坐椅子
+action.SIT=X
+# 检取
+action.PICK=Z
+# 普通攻击
+action.ATTACK=LCTRL
+
+# UI快捷键
+ui.W=WorldMap
+
+ui.I=Item
+
+# 技能键 (scancode=skillid)
+skill.A=14101006
+# skill.SPACE=2201002
+skill.F=2221006
+skill.Y=1111008
+skill.D=1101004
+skill.S=1311006
+skill.G=4111005
+skill.H=4111002
+skill.C=4001003
+skill.V=3001005
+skill.B=4211006
+skill.J=1311001
+skill.K=1121006
+skill.R=4211002
+skill.T=4201004
+skill.U=1121008
+skill.N=4121007
+skill.Q=2201004
+skill.E=4101004
+skill.M=1101007
+skill.1=2221005
+skill.2=2121005
+skill.3=3121006
+skill.4=3101005
+skill.5=2001002
+skill.6=21100005
+skill.7=3221005
+skill.O=4201005
+skill.P=3111003
+skill.L=2101004
