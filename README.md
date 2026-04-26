@@ -1,4 +1,4 @@
-基于sdlms修复和完善,重构版本,使用cms072客户端
+基于sdlms修复和完善的重构版本,客户端：cms072
 
 使用[LLVM18](https://github.com/mstorsjo/llvm-mingw/releases/tag/20240619),[Ninja](https://github.com/ninja-build/ninja/releases),[Cmake3.28](https://cmake.org/download/)编译
 
@@ -18,7 +18,9 @@ ninja
 SDL_VIDEODRIVER=x11 ./sdlMS
 
 重构内容:
+
 1.使用SDL3
+
 2.使用entt,全面去除Class
-~~3.使用c++20特性,全部模块化~~
-(目前编辑器不支持，又改成头文件形式)
+
+3.使用c++20特性,全部模块化(目前编辑器不支持，又改成头文件形式)
